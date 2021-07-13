@@ -9,13 +9,14 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Hi there, I'm Gobinath <br />
+          Front End Developer and Fresher
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        I'm a 23-year-old self-taught developer. <br />
+        Gather my experiences by creating a memorable products that are not only enjoyable to use but are written in code thats's maintainable and easy to inderstand.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={() => window.location = `https://drive.google.com/file/d/1XwwRQQFYY7juMaiyW0g2Tm0LPtTC-Us1/view`}>Download CV</Button>
       </LeftSection>
     </Section>
   </>

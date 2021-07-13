@@ -8,8 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Through my studies, I've gained a solid understanding of web development concepts, and have dedicates a lot my free time to apply these concepts to real-world scenarios and applications.
     </SectionText>
     <List>
       <ListItem>
@@ -48,6 +47,7 @@ const Technologies = () =>  (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             Git <br />
+            Firebase <br />
             Netlify <br />
             Heroku <br />
           </ListParagraph>
